@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/h810/full_h810.mk)
 
-# Inherit some common Candy5 stuff.
-$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/candy5/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := candy5_h815
+PRODUCT_NAME := cm_h810
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
