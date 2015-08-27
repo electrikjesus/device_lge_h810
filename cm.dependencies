@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "android_device_lge_g4-common",
+    "repository": "lg-g4-dev/android_device_lge_g4-common",
     "target_path": "device/lge/g4-common"
     "revision": "cm-12.1"
   }
